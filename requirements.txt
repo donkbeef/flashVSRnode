@@ -8,7 +8,3 @@ pillow
 huggingface_hub
 triton; platform_system!="Windows"
 triton-windows; platform_system=="Windows"
-sageattention; platform_system!="Windows"
-flash-attn; platform_system!="Windows"
-psutil
-opencv-python>=4.8.1.78
