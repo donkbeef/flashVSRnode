@@ -6,7 +6,7 @@
 	symlinks = false
 	ignorecase = true
 [remote "origin"]
-	url = https://github.com/lihaoyun6/ComfyUI-FlashVSR_Ultra_Fast.git
+	url = https://github.com/1038lab/ComfyUI-FlashVSR
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "main"]
 	remote = origin
