@@ -1,33 +1,24 @@
 [project]
-name = "ComfyUI-FlashVSR"
-description = "Powerful ComfyUI custom node built on the FlashVSR model, facilitating real-time diffusion-based video super-resolution for streaming applications."
-version = "1.1.1"
-license = {file = "LICENSE"}
-
-dependencies = [
-    "torch>=2.0.0",
-    "torchvision>=0.15.0",
-    "numpy>=1.24.0",
-    "einops>=0.6.0",
-    "safetensors>=0.4.0",
-    "pillow>=9.5.0",
-    "huggingface_hub>=0.19.0",
-    "tqdm>=4.65.0"
-]
-
-[project.optional-dependencies]
-performance = [
-    "sageattention>=1.0.0",
-    "triton>=2.1.0"
-]
+name = "ComfyUI-FlashVSR_Stable"
+description = "ComfyUI-FlashVSR_Stable official ComfyUI integration: High-performance Video Super Resolution for ComfyUI with VRAM optimization."
+version = "1.2.3"
+authors = [
+    {name = "naxci1"},
     
+]
+license = {file = "LICENSE"} 
+classifiers = [
+     "Operating System :: OS Independent"
+]
+
 [project.urls]
-Repository = "https://github.com/1038lab/ComfyUI-FlashVSR"
-#  Used by Comfy Registry https://comfyregistry.org
+Repository = "https://github.com/naxci1/ComfyUI-FlashVSR_Stable"
+Documentation = "https://github.com/naxci1/ComfyUI-FlashVSR_Stable/blob/main/CHANGELOG.md"
+"Bug Tracker" = "https://github.com/naxci1/ComfyUI-FlashVSR_Stable/issues"
+Forum = "https://github.com/naxci1/ComfyUI-FlashVSR_Stable/discussions"
 
 [tool.comfy]
-PublisherId = "ailab"
-DisplayName = "ComfyUI-FlashVSR"
-
-Icon = ""
-
+PublisherId = "naxci1"
+DisplayName = "ComfyUI-FlashVSR_Stable"
+Icon = "https://github.com/naxci1/ComfyUI-FlashVSR_Stable/blob/main/workflow/logo_tr.png"
+includes = []

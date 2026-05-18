@@ -1,16 +1,17 @@
-"""ComfyUI-FlashVSR - Real-time Video Super-Resolution Node"""
+from .nodes import FlashVSRNode, FlashVSRNodeAdv, FlashVSRNodeInitPipe
 
-print("\n[FlashVSR] Loading nodes...")
+# Node-ların sistemdəki (kod) adları - hamısının sonuna _Stable artırdım
+NODE_CLASS_MAPPINGS = {
+    "FlashVSR_Stable": FlashVSRNode,
+    "FlashVSR_Stable_Adv": FlashVSRNodeAdv,
+    "FlashVSR_Stable_Pipe": FlashVSRNodeInitPipe
+}
 
-from .AILab_FlashVSR import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+# Node-ların menyuda görünən adları
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "FlashVSR_Stable": "FlashVSR Ultra-Fast (Stable)",
+    "FlashVSR_Stable_Adv": "FlashVSR Advanced (Stable)",
+    "FlashVSR_Stable_Pipe": "FlashVSR Init Pipe (Stable)"
+}
 
-# Check for optional SageAttention optimization
-try:
-    from sageattention import sageattn
-    print("[FlashVSR] ✓ SageAttention detected (~20-30% speedup enabled)")
-except ImportError:
-    print("[FlashVSR] ○ SageAttention not installed (optional speedup available)")
-
-print(f"[FlashVSR] ✓ Loaded {len(NODE_CLASS_MAPPINGS)} node(s)\n")
-
-__all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
+__all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
