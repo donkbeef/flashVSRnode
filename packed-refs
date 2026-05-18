@@ -1,2 +1,25 @@
 # pack-refs with: peeled fully-peeled sorted 
-8877fdd593ea93b27353956dc69edf423c561fee refs/remotes/origin/main
+b80cec79ce7eeaf7ceb7efd15e0ad5bf7e5fcee8 refs/remotes/origin/copilot/add-model-paths-yaml
+e2c80cceaa1498fc65cac8cfbb0cee8df646082c refs/remotes/origin/copilot/fix-keep-models-on-cpu-issue
+1ea2f8d0b789580066b6c884d04f6704e431694d refs/remotes/origin/copilot/fix-output-type-issue
+056f95af13083d55099345aebf0807f3ae3fd233 refs/remotes/origin/copilot/fix-runtimeerror-tensor-size
+acf8bccc687c6d13816f8e9ea4525372dfd53a96 refs/remotes/origin/copilot/fix-tile-bugs-processing
+b9da721ce9dfd1942494a3ae79657863f43bd6c7 refs/remotes/origin/copilot/integrate-flashvsr-gguf
+f7f55bae4c0e82b18b190d4b62a977995507c51c refs/remotes/origin/main
+6f8834ffe8dd50208812552c1722b8ef6f894c3f refs/remotes/origin/revert-26-copilot/fix-keep-models-on-cpu-issue
+fec6bd1b46450a1ccefd0d63aea27919fa89822a refs/tags/1.3.0
+a9266f0390f15b23cd59b3dcfae062a85510dfda refs/tags/v.1.2.0
+8cba8a6b6f89a134d28df18941adf37998c4bcac refs/tags/v.1.2.1
+99c379bfa9ffc2ddbc0b26b38bc8e8480689bad3 refs/tags/v.1.2.10
+ca0b20b0c4a7f82dc30d399939db6d4f88770789 refs/tags/v.1.2.3
+982d9994212b5acc93ce097befacdb4078d7c421 refs/tags/v.1.2.4
+a9858f1cfd0ebd59bff0170aed34463d1cf3fd3c refs/tags/v.1.2.5
+f01e60183f2f85f213d392e97465e340c0caf497 refs/tags/v.1.2.7
+50d91119da5acbfb3c98810f6d1ccb54fd2a48bd refs/tags/v.1.2.8
+cbabec8e3037d7b26fc9e5b1eff7ec0246eef461 refs/tags/v.1.2.9
+0c7d7fa3be54fa28de01acb9adf9f158a403f129 refs/tags/v1.1.2
+3fc98c17c864dbcebbc2c10c26d2df2489029907 refs/tags/v1.2.4
+^982d9994212b5acc93ce097befacdb4078d7c421
+a9858f1cfd0ebd59bff0170aed34463d1cf3fd3c refs/tags/v1.2.5
+a3e26ef8b3bd2e9659fc368b247065d0dbd86b47 refs/tags/v1.2.6
+f01e60183f2f85f213d392e97465e340c0caf497 refs/tags/v1.2.7
